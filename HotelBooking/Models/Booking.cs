@@ -8,6 +8,16 @@ using System.Web.Mvc;
 namespace HotelBooking.Models
 {
     public class Booking
+        /**
+         \brief dodawanie rezerwacji
+
+        \detalis dodaje informacje odnośnie rezerwacji
+    
+        \param <ID> - dodanie numeru
+        \param <Advance> - dodanie zaliczki
+        \param <StartDate> - dodanie informacji przyjazdu
+        \param <EndDate> - dodanie informacji wyjazdu
+    **/
     {
         [Display(Name = "Numer")]
         public int ID { get; set; }
