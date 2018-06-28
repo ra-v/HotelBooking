@@ -11,6 +11,17 @@ using HotelBooking.Models;
 namespace HotelBooking.Controllers
 {
     public class BookingController : Controller
+    /**
+\brief Dodanie kontrolera Booking
+
+\detalis tworzenie, edytowanie, kasowanie rezerwacji
+
+\param <Create()> - tworzenie rezerwacji
+\param <Edit()> - edycja rezerwacji
+\param <Delete()> - kasowanie rezerwacji
+
+
+**/
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 

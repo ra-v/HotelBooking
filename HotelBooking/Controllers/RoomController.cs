@@ -12,6 +12,17 @@ namespace HotelBooking.Controllers
 {
 
     public class RoomController : Controller
+    /**
+   \brief Dodanie kontrolera Room
+
+  \detalis tworzenie, edytowanie, kasowanie pokojów
+
+    \param <Create()> - tworzenie pokoju
+    \param <Edit()> - edycja pokoju
+    \param <Delete()> - kasowanie pokoju
+
+ 
+**/
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
