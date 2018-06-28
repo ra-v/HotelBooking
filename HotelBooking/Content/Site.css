@@ -5,8 +5,11 @@
     color: #ffffff;
     background-image: url(Images/KingRoom.jpg);
     background-repeat: no-repeat;
-    
+    background-size: cover;
+    text-align: center;
+    min-height: 100vh;
 }
+
 .body-overlay{
     background-color: rgba(0,0,0,0.7);
     width: 100%;
